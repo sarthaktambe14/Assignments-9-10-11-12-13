@@ -1,9 +1,5 @@
-def Display():
-    print("Jay Ganesh..")
+def Table(no):
+    for i in range(1, 11):
+        print(no * i, end=" ")
 
-def main():
-
-    Display()
-
-if __name__ == "__main__":
-    main()    
+Table(4)

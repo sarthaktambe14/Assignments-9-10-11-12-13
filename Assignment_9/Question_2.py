@@ -1,17 +1,15 @@
-def ChkGreater(no1, no2):
-    if no1 > no2:
-        
-        print("Greater no is ",no1)
-    else:
-        print("Greater no is",no2)
+def sum(n):
+    ANS = 0
+    for i in range(1, n + 1):
+        ANS += i
+    print(ANS)
+
 def main():
+    print("Enter number")
+    No = int(input())
 
-    print("Enter First number :")
-    value1=int(input())
-    print("Enter Second number :")
-    value2=int(input())
+    sum(No)
 
-    ChkGreater(value1,value2)
-
-if __name__=="__main__":
+if __name__ == "__main__":
     main()
+
