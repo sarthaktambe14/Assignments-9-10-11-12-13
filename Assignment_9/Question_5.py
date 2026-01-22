@@ -1,15 +1,25 @@
-def odd(n):
-    for i in range(1, n + 1):
-        if i % 2 != 0:
-            print(i, end=" ")
+def Divisible(no):
+    if  (no % 3 == 0) & (no % 5 == 0):
+
+        print("Divisible by 3 & 5 ")
+    else:
+        print("not divisible by 3 & 5 ")
+
+    
 
 def main():
-    
-    print("Enter Number")
 
+    print("Enter Number : ")
     No = int(input())
-    odd(No)
 
+    Ret = Divisible(No)
+
+    
 if __name__ == "__main__":
     main()
+
+
+
+
+
 

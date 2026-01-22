@@ -1,13 +1,5 @@
-def even(n):
-    for i in range(1, n + 1):
-        if i % 2 == 0:
-            print(i, end=" ")
+def display(no):
+    Ans=(no * no * no)
+    print("Cube of 5 is:",Ans)
 
-def main():
-    print("Enter Number")
-
-    No = int(input())
-    even(No)
-
-if __name__ == "__main__":
-    main()
+display(5)
